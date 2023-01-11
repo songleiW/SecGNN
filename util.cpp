@@ -49,13 +49,13 @@ void readData(int flag) {
 void getNodeData(const string fileName, vector<inputNode> &inputLayer) {
     ifstream infile(fileName, ios::in);
 
-    if (!infile) {  // 判断文件是否存在
+    if (!infile) {  
         cerr << "open error." << endl;
-        exit(1); // 退出程序
+        exit(1); 
     }
 
     double data;
-    string str; // 定义字符数组用来接受读取一行的数据
+    string str; 
     while (getline(infile, str)) {
         inputNode newNode;
         stringstream input(str);
