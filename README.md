@@ -7,7 +7,7 @@ This code accompaines the following paper: SecGNN: Privacy-Preserving Graph Neur
 ## Citation
 You can cite the paper using the following BibTeX entry (the paper links to this repo):
 ```
-@article{wang2023privacy
+@article{wang2023SecGNN
   title={SecGNN: Privacy-Preserving Graph Neural Network Training and Inference as a Cloud Service},
   author={Wang, Songlei and Zheng, Yifeng and Jia, Xiaohua},
   journal={IEEE Transactions on Services Computing},
