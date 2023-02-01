@@ -1,7 +1,7 @@
 # SecGNN: Privacy-Preserving Graph Neural Network Training and Inference as a Cloud Service
 
 
-This code accompaines the following paper: Privacy-Preserving Graph Neural Network Training and Inference as a Cloud Service.
+This code accompaines the following paper: SecGNN: Privacy-Preserving Graph Neural Network Training and Inference as a Cloud Service.
 
 
 ## Citation
