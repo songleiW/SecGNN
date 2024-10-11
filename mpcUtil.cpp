@@ -11,6 +11,7 @@ long long z1, z2, e, f, a1, b1, c1, a2, b2, c2,
         alpha1[NODENUM][1 + FEATURENUM], alpha2[NODENUM][1 + FEATURENUM], alpha3[NODENUM][1 + FEATURENUM];
 long long numMutil=0,numMutilBool=0, lengthData=0;
 void initMPC() {
+    //************读取算术元组**************************
     long long temp;
     string str;
     ifstream infile("../cora/triplesParty1.txt", ios::in);
@@ -38,6 +39,7 @@ void initMPC() {
     }
     infile1.close();
 
+    //************读取bool元组**************************
 
     bool tempBool;
     ifstream infile2("../cora/triplesBoolParty1.txt", ios::in);

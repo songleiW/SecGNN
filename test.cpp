@@ -21,11 +21,11 @@ void readModel(int flag) {
     }
 
     ifstream infile(file1, ios::in);
-    if (!infile) {  
+    if (!infile) {  // 判断文件是否存在
         cerr << "open error." << endl;
-        exit(1); 
+        exit(1); // 退出程序
     }
-    string str;
+    string str; // 定义字符数组用来接受读取一行的数据
     int weight;
     for (int i = 0; i < HIDDENNODE; ++i) {
         getline(infile, str);
@@ -51,9 +51,9 @@ void readModel(int flag) {
     infile.close();
 
     ifstream infile2(file2, ios::in);
-    if (!infile) {  
+    if (!infile) {  // 判断文件是否存在
         cerr << "open error." << endl;
-        exit(1); 
+        exit(1); // 退出程序
     }
     for (int i = 0; i < HIDDENNODE; ++i) {
         getline(infile2, str);
